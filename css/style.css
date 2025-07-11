@@ -15,3 +15,40 @@ body{
     width: 100%;
 
 }
+.ml-0{
+    margin-left: 0 !important;
+}
+/* Navbar Css */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+.navbar .logo p{
+    color: var(--Primary-Color, #4E47FF);
+    font-family: 'Inter';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%; /* 51px */
+    margin-right: 909px;
+}
+
+
+.navbar button{
+    border: 1px;
+    border-radius: 10px;
+    background: #4E47FF;
+    padding: 12px 36px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    transition: 0.5s;
+
+}
