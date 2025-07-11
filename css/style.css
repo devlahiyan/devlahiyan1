@@ -325,3 +325,197 @@ body{
     
 }
 /* review Section End */
+/* CTR CSS  START*/
+.ctr{
+    width: 1140px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    margin: 0 auto;
+    margin-bottom: 92px;
+}
+
+.ctr .ctr-text h4{
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 60px */
+    padding-top: 72px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ctr .ctr-text p{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ctr .ctr-text .ctr-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ctr .ctr-text .ctr-btn button{
+    border: 1px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #FFF;
+    background: #4E47FF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    transition: .5s;
+    cursor: pointer;
+}
+.ctr .ctr-text .ctr-btn button:hover{
+    background-color: #1E1E1E;
+    transition: .5s;
+}
+.ctr .ctr-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+/* CTR CSS  END*/
+
+/* Contact Section Start */
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 85px;
+}
+.contact .contact-text{
+    margin-right: 71px;
+}
+.contact .contact-text p{
+    width: 528px;
+    color: #000;
+    font-family: 'Raleway';
+    font-size: 97px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 116.4px */
+    
+}
+.contact .contact-form .mail{
+    margin-bottom: 20px;
+}
+.contact .contact-form .name{
+    margin-bottom: 20px;
+}
+.contact .contact-form .msg{
+    margin-bottom: 20px;
+}
+.contact .contact-form .mail h6{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */
+    margin-bottom: 10px;
+}
+.contact .contact-form .mail input{
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    width: 497px;
+    height: 70px;
+}
+.contact .contact-form .mail input::placeholder{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-left: 32px;
+}
+.contact .contact-form .name h6{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */
+    margin-bottom: 10px;
+}
+.contact .contact-form .name input{
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    width: 497px;
+    height: 70px;
+}
+.contact .contact-form .name input::placeholder{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-left: 32px;
+}
+.contact .contact-form .msg h6{
+    color: #000;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 21.6px */
+    margin-bottom: 10px;
+}
+.contact .contact-form .msg input{
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    width: 497px;
+    height: 135px;
+    position: relative;
+}
+.contact .contact-form .msg input::placeholder{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+     /* 30px */
+    position: absolute;
+    top: 20px;
+    left:32px;
+    
+}
+.contact .contact-form .from-btn button{
+    border: 1px;
+    padding:19px 202px ;
+    border-radius: 10px;
+    background: var(--Primary-Color, #4E47FF);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    transition: .5s;
+}
+.contact .contact-form .from-btn button:hover{
+    background-color: #1E1E1E;
+    transition: .5s;
+}
+
+/* Contact Section End */
