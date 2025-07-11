@@ -52,3 +52,54 @@ body{
     transition: 0.5s;
 
 }
+.navbar button:hover{
+    background-color: rgb(38, 37, 53);
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+/* Banner Css */
+
+.banner{
+    margin-bottom: 268px;
+}
+.banner .banner-header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.banner .banner-header p{
+    width: 811px;
+    color: #252432;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+.banner .banner-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .banner-btn button{
+    border: 1px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background: #4E47FF;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    transition: .5s;
+}
+.banner .banner-btn button:hover{
+    background-color: #252432;
+    transition: .5s;
+}
